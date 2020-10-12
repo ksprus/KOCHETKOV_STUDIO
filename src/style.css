@@ -1,0 +1,552 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*overflow:  hidden;*/
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.glav {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.abme{
+    max-width: 439px;
+
+}
+
+
+.aboutme {
+    display: flex;
+
+}
+
+
+.abme-desc {
+    margin-left: 40px;
+}
+
+.description {
+    margin-top: 85px;
+    margin-bottom: 36px;
+    font-size: 24px;
+}
+
+button {
+    width: 220px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    background-color: #0C6CA8;
+    border-radius: 10px;
+    border: 1px solid #0C6CA8; 
+    outline-color: none;
+
+}
+
+button, button:focus {
+    outline: none;
+}
+button:active {
+    border: 1px solid white; 
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+
+#uslugifull > div > div.cards > div > div.card-body > h5 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.pusl {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 90px;
+    margin-top: 20px;
+}
+
+#uslugifull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.uslugi > .container > .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#uslugifull > div > div.cards > div {
+    width: 200px;
+    position: static;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    border: none;
+}
+
+#uslugifull > div > div.cards > div > div.card-body {
+    flex: 0;
+    text-align: center;
+}
+
+
+.card > .card-img {
+    margin: 0 auto;
+    width: 120px;
+}
+
+.card > .card-img > img{
+    margin: 0 auto;
+    width:100%;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.vk img {
+    display: block;
+    position: absolute; 
+    right:2px; 
+    width: 65px; 
+    top: 280px;
+}
+
+.instagram img {
+    position: absolute; 
+    right:13px;
+     top: 355px;
+      width: 45px;
+}
+
+#samples {
+    display: flex;
+}
+
+.webimg {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+#samples > div > div.desa > a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#samples > div > div.desa > a > h5 {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#samples > div > div.desa > a {
+    text-decoration: none;
+}
+
+#samples > div > h3 {
+    margin-bottom: 40px;
+}
+
+.des {
+    display: flex;
+    margin: 0 auto;
+    min-width: 280px;
+    margin-bottom: 120px;
+}
+
+#webs-r {
+    text-align: center;
+}
+
+
+.webs {
+    margin-bottom: 40px;
+}
+#samples > div > div.webs > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#samples > div > div.webs > div > a > div > img {
+    width: 200px;
+    height: 180px;
+}
+
+
+#samples > div > div.webs > div > a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+#samples > div > div.webs > div > a > div {
+    width: 200px;
+    height: 230px;
+}
+
+
+#des-r {
+    text-align: center;
+}
+
+.desa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+#carouselExampleControls {
+    width: 40%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+@media (min-width: 280px) and (max-width:505px) {
+
+    body {
+        overflow:  scroll;
+    }
+    .container {
+        max-width: 539px;
+    }
+
+    .glav {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .abme-desc {
+        margin-left: 5px;
+    }
+
+    .description {
+            margin-top: 20px;
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+
+.vk img {
+    display: block;
+    position: absolute; 
+    right:10px; 
+    width: 45px; 
+    top: 4px;
+}
+
+.instagram img {
+    position: absolute; 
+    right:52px;
+     top: 10px;
+      width: 33px;
+}
+
+
+.samples {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.webimg {
+    width: 100%;
+}
+
+button {
+    display: block;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: #0C6CA8;
+    border-radius: 5px;
+    border: 1px solid #0C6CA8;
+    outline-color: none;
+    margin: 0 auto;
+
+}
+
+button, button:focus {
+    outline: none;
+}
+button:active {
+    border: 1px solid white; 
+}
+
+.navbar-brand {
+    margin-bottom: 20px;
+}
+
+.pusl { font-size: 16px;}
+
+.comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.abme {
+    width: 100%;
+    margin: 0 auto;
+}
+
+}
+
+
+
+@media (min-width: 505px) and (max-width:777px) {
+    body {
+        overflow:  scroll;
+    }
+    .container {
+        max-width: 767px;
+    }
+
+    .glav {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-top: 40px;
+        justify-content: start;
+
+    }
+
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .abme-desc {
+        margin-left: 5px;
+    }
+
+    .description {
+            margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+
+.vk img {
+    display: block;
+    position: absolute; 
+    right:10px; 
+    width: 45px; 
+    top: 4px;
+}
+
+.instagram img {
+    position: absolute; 
+    right:52px;
+     top: 10px;
+      width: 33px;
+}
+
+
+
+.samples {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.webimg {
+    width: 100%;
+}
+
+button {
+    display: block;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: #0C6CA8;
+    border-radius: 5px;
+    border: 1px solid#0C6CA8;
+    outline-color: none;
+    margin: 0 auto;
+
+}
+
+button, button:focus {
+    outline: none;
+}
+button:active {
+    border: 1px solid white; 
+}
+
+.navbar-brand {
+    margin-bottom: 20px;
+}
+
+.pusl { font-size: 16px;}
+
+.comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.abme {
+    width: 100%;
+    margin: 0 auto;
+}
+
+}
+
+@media (min-width:778px) and (max-width:991px) {
+.abme {
+    width: 100%;
+   max-height: 400px;
+}
+
+.vk img {
+    display: block;
+    position: absolute; 
+    right:10px; 
+    width: 45px; 
+    top: 10px;
+}
+
+.instagram img {
+    position: absolute; 
+    right:55px;
+     top: 16px;
+      width: 33px;
+}
+
+.glav {
+    margin-bottom: 70px;
+}
+
+
+.desa {
+   display: flex;
+    justify-content: center;}
+
+  
+    .samples {
+        margin-bottom: 30px;
+    };
+}
+
+@media (min-width:992px) {
+    .glav {
+        margin-bottom: 60px;
+    }
+
+}
+
+.strelka-right {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.strelka-left {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
